@@ -1,0 +1,23 @@
+{
+    "api_key": "9ccadd8e0f3c4f16835be5696d979ae4",
+    "200": {
+        "s": "OK",
+        "d": "Connected to API server successfully!"
+    },
+    "401": {
+        "s": "Unauthorized",
+        "d": "The request was unacceptable. Typically due to the API key missing or incorrect."
+    },
+    "422": {
+        "s": "Quota reached",
+        "d": "Quota reached, Insufficient API credits. (Free plans)"
+    },
+    "500": {
+        "s": "Internal server error",
+        "d": "The request could not be completed due to an error on the server side."
+    },
+    "503": {
+        "s": "Service unavailable",
+        "d": "The server was unavailable."
+    }
+}
